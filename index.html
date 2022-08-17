@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+
+    <!-- SORRY SIR FOR THE MESSY CODE I AM NEW LEARNER OF CSS AS I USED FRAMEWORKS/TOOLS ONLY FOR STYLING LIKE TAILWIND, BOOTSTRAP, ETC BUT I GAVE MY BEST AND TRIED ALOT OF WAYS  -->
+    <!-- AND REALLY IT HELPED ME ALOT TO LEARN MORE. I HAVENT DELETED THE COMMENTED OUT CODES NOW AS I WANTED TO REVIEW MY PROJECT AND SOME GUIDANCE AND ALSO I CAN CHECK WHAT WRONG -->
+    <!-- I WAS DOING ONCE I GET MORE BETTER WITH CSS -->
+
+
+    <style>
+
+        .nav-items{
+          position: absolute;
+          display: flex;
+          gap: 30px;
+          /* margin-top: 10px;/ */
+        }     
+        
+        .nav-items{
+          position: absolute;
+          margin-top: -45px;
+          list-style: none;
+          margin-left: 315px;
+          /* display: flex; */
+          
+        }
+
+        @media (min-width:1000px){
+          .bar{
+            display: none;
+          }
+        }
+
+
+        .signin-btn{
+          /* display: flex; */
+          /* justify-content: end; */
+          margin-left: 1100px;
+          position: absolute;
+          /* margin-top: -1px; */
+          /* padding: ; */
+          width: 86px;
+          border-radius: 50px;
+          background-image: linear-gradient(315deg, #f103a2 0%, #a416f7 74%);
+          color: white;
+          /* padding: 12px; */
+          width: 80px;
+          border: white;
+          /* font-size: 20px; */
+        }
+
+        nav img{
+          /* width: -100px; */
+        }
+
+        .imgs-div img{
+          /* display: flex; */
+          position: absolute;
+          margin-left: 500px;
+          /* justify-content: end; */
+          margin-top: -160px;
+          width: 460px;
+        }
+
+       .mainimg{
+        /* display: flex; */
+        /* justify-content: baseline; */
+          /* position: absolute; */
+          /* margin-left: 90px; */
+          /* margin: 100px; */
+       }
+
+       img.mainimg{
+        width: 610px;
+        margin-left: 735px;
+        margin-top: 30px;
+       }
+
+       img.bg{
+        /* object-fit: sc; */
+        /* position: absolute; */
+        width: 72%;
+        overflow: hidden;
+        /* margin-top: 1px; */
+        margin-left: 394px;
+        /* margin-right: -600px; */
+       }
+
+       .bg{
+
+        /* padding: -500px; */
+        /* margin-left: 100px; */
+        /* width: 100px; */
+        /* position: absolute; */
+       }
+
+        
+
+
+nav{
+  position: absolute;
+}
+
+.webd{
+  position: absolute;
+  margin-top: 123px;
+  font-size: 60px;
+  margin-left: 40px;
+  color: rgb(6, 6, 121);
+}
+
+.webp{
+  position: absolute;
+  margin-top: 230px;
+  width: 245px;
+  font-size: 12px;
+  margin-left: 50px;
+  color: rgb(5, 5, 93);
+}
+
+.learn-more-btn{
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 50px;
+  border-radius: 30px;
+  /* background-color: #f977ce; */
+background-image: linear-gradient(315deg, #f977ce 0%, #aa2cf3 74%);
+color: white;
+padding: 12px;
+width: 180px;
+border: white;
+font-size: 20px;
+/* font-weight: 150px; */
+}
+
+.logooo{
+  /* position: absolute; */
+  /* width: 10px; */
+
+}
+
+img.vector-img{
+  position: absolute;
+  width: 100px;
+  margin-left: 430px;
+  /* margin-bottom: -300px; */
+  margin-top: 400px;
+  /* margin-top: 100px; */
+}
+
+img.vector-dot{
+  position: absolute;
+  width: 12px;
+  margin-left: 484px;
+  /* margin-bottom: -300px; */
+  margin-top: 420px;
+}
+
+@media (max-width: 768px) {
+  .logooo{
+    width: 130px;
+  }
+
+  .nav-items{
+    display: none;
+   }
+   
+   .bar{
+    margin: auto;
+    /* float: right; */
+    /* width: 200px; */
+    /* position: absolute; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+   }
+
+   .bar i{
+    float: right;
+    font-size: 30px;
+    /* margin-left: 100px; */
+    margin-top: 10px;
+    /* position: absolute; */
+    /* width: 200px; */
+    /* display: none; */
+   }
+
+   .signin-btn{
+    display: none;
+   }
+
+   .webd{
+    margin-top: 160px;
+    font-size: 30px;
+    color: #bd4cfe;
+    /* display: block; */
+    /* padding: 10px; */
+   }
+
+   .webp{
+    /* position: absolute; */
+    margin-top: 330px;
+    font-size: 25px;
+    width: 50%;
+    /* display: block; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-left: 1px; */
+   }
+
+   img.bg{
+    width: 100%;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    /* display: none; */
+   }
+
+   .mainimg {
+    /* margin-bottom: -200px; */
+    height: 100px;
+    display: none;
+    position: absolute;
+    margin-right: 100px;
+    /* align-items: flex-start; */
+    /* width: 10px; */
+    /* position: absolute; */
+   /* display: none; */
+   /* flex-wrap: wrap; */
+   /* font-size: 100px; */
+   }
+
+   .vector-img{
+    display: none;
+   }
+
+   .vector-dot{
+    display: none;
+   }
+
+   .bg{
+    display: none;
+   }
+
+   .learn-more-btn{
+    margin-top: 700px;
+    overflow: hidden;
+   }
+}
+
+@media (max-width: 360px) {
+  .learn-more-btn{
+    margin-top: 850px;
+  }
+}
+
+
+          
+    </style>
+
+
+    <title>Design Landing Page</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <nav>
+        
+        <img src="./images/logo.svg" alt="logo" class="logooo" />
+        <ul class="nav-items">
+          <li class="nav-item">HOME</li>
+          <li class="nav-item">ABOUT</li>
+          <li class="nav-item">HISTORY</li>
+          <li class="nav-item">BLOG</li>
+          <li class="nav-item">CONTACT</li>
+        </ul>
+        <div class="bar"><i class="fa-solid fa-bars"></i></div>
+        <button class="signin-btn">SIGN IN</button>
+      </nav>
+      <div class="intro-section">
+        <div class="left-section">
+          <h1 class="webd">Web Design</h1>
+          <h4 class="webp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          </h4>
+          <button class="learn-more-btn">LEARN MORE</button>
+        </div>
+        <div class="imgs-div">
+          <img src="./images/vector.svg" alt="vector-img" class="vector-img" />
+          <img
+            src="./images/vector-dot.svg"
+            alt="vector-dot"
+            class="vector-dot"
+          />
+         
+
+          <img src="./images/backcover.svg" alt="intro-img" class="bg" />
+
+          <img src="./images/intro-img.svg" alt="intro-img" class="mainimg" />
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
